@@ -1,0 +1,324 @@
+.feature-box {
+
+    max-width: 6em;
+
+}
+
+/*
+    background color
+*/
+
+.bg-gray {
+    background-color: #fafafa !important;
+}
+
+/* Block search home */
+
+.search {
+    background-image: url("../img/bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.search .description {
+    text-align: center;
+}
+
+.search-block {
+    margin: 3em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.search .icon-search {
+    border: transparent;
+    background: #F4F6F7;
+
+}
+
+.search .search-filter {
+    border: transparent;
+    background: #F4F6F7;
+    font-weight: 400;
+}
+
+.search .search-filter span {
+    padding-left: 2em;
+}
+
+.search select {
+    border: transparent;
+    background: #F4F6F7;
+}
+
+.search .separate {
+    background-color: #F4F6F7;
+    border-right: #909FAC 1pt solid;
+}
+
+.search input {
+    border: transparent;
+    background: #F4F6F7; /* #C7CFD5 */
+}
+
+.search input:focus {
+
+    background: #F4F6F7; /* #C7CFD5 */
+
+}
+
+.search-block h1 {
+    text-align: center;
+}
+
+.search-block .marque {
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+.search-block .search-btn {
+
+    margin: 0;
+    position: absolute;
+    font-weight: 500;
+
+}
+
+.search .filter-section {
+    margin-top: 0.5em;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    border: transparent;
+    width: max-content;
+    max-width: 950px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .search .filter-section {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        margin-top: 0.5em;
+        box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+        border: transparent;
+        width: 25em;
+    }
+}
+
+.search .filter-section .filtr {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.search .filter-section .title-filter {
+    padding-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-bottom: lightgray 1px solid;
+}
+
+.search .filter-section .footer {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    border-top: lightgray 1px solid;
+}
+
+.search .filter-section .btn-filter {
+    font-weight: 500;
+    color: dimgray;
+    text-decoration: none
+}
+
+.search .filter-section .filter-valid {
+    color: orange;
+}
+
+/* Navigation */
+
+.nav-btn {
+
+    text-align: center;
+    padding: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.nav-top-btn a{
+    color: #7F7F7F;
+    text-decoration: none;
+
+}
+
+.nav-top-btn a:hover{
+    color: black;
+    text-decoration: none;
+
+}
+/*
+    Sections styles
+*/
+
+/* Hr Border */
+
+hr.section-border {
+    margin: 30px 0px 20px;
+    border: 0;
+    border-top: 0.01em solid #F0F0F0;
+}
+
+/* Presentation block */
+.presentation-block {
+
+
+
+}
+
+.presentation-block p{
+    padding-top: 2em;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.presentation-block ul {
+    margin: 1.5em;
+}
+
+.presentation-block i {
+    color: #72C02C;
+    font-weight: lighter;
+}
+
+.presentation-block li {
+    font-weight: lighter;
+    font-size: large;
+}
+
+.presentation-block img {
+    background-image: url("./img/bg-pres.png");
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+
+
+/*
+    Styles Titres
+*/
+
+/* Style title 1 */
+.title-style-1 {
+    text-transform: uppercase;
+}
+
+.title-style-1:after {
+    content: "";
+    display: block;
+    width: 15%;
+    padding-top: 20px;
+    border-bottom: 1px solid orange;
+    transition: .5s;
+}
+
+.title-style-1:hover:after {
+    width: 30%; /* This will be the new width of your border when on hover */
+}
+
+
+/*
+    Footer
+*/
+
+.footer-title {
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+
+}
+
+.footer-link {
+    color: darkgray;
+}
+.footer-link:hover {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.footer-social {
+    display: block;
+    background-color: darkgray;
+    color: black;
+    width: 35px;
+    height: 35px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.footer-social:hover {
+    background-color: orange;
+    color: white;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.footer-img {
+    width: 80px;
+}
+
+/*
+    Download page
+ */
+
+.download {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: white;
+}
+
+.download h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.download .text-dl {
+    padding-top: 15%;
+    text-align: center;
+}
+
+.download .row {
+    padding: 3em;
+}
+
+.download .buttons-dl {
+    padding: 1em;
+}
+
+.download .btn-block {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.download .btn-block span {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+}

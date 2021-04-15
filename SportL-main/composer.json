@@ -1,0 +1,19 @@
+{
+    "name": "sanje/sportlog",
+    "description": "Site web SportLog",
+    "authors": [
+        {
+            "name": "Sanjeevan Rammohan",
+            "email": "rsanjee19@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "altorouter/altorouter": "1.1.0"
+    }
+
+}

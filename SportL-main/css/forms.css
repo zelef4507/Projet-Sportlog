@@ -1,0 +1,74 @@
+.form-container {
+
+    padding-top: 5em;
+
+}
+
+.form-hover {
+    font-size: medium;
+    border-color: #EEEEEE;
+    height: 3em;
+}
+
+.text-forms {
+    font-weight: 600;
+    font-size: x-large;
+    color: #555555;
+}
+
+.text-under-forms {
+    font-size: 14px;
+    color: #999999;
+}
+
+.text-list-forms {
+    color: #999999;
+}
+
+.form-icon {
+    width: 2em;
+    text-align: center;
+}
+
+.icon-list-forms {
+    color: #72C02C;
+}
+
+.footer-form-t {
+    color: #A3A3A3;
+    padding-bottom: 1em;
+}
+
+.footer-link-t {
+    color: #72C02C;
+}
+
+.footer-link-t:hover {
+    color: #72C02C;
+}
+
+.form-hover::placeholder {
+    color: #A3A3A3;
+}
+
+.form-hover:hover {
+    border-color: #72C02C;
+}
+
+.form-hover:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #72C02C;
+}
+
+.btn-sign {
+    background-color: #72C02C;
+    color: white;
+    font-weight: 300;
+}
+
+.btn-sign:hover {
+    background-color: #8CD54A;
+    color: white;
+    font-weight: 300;
+}
